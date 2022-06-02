@@ -3,33 +3,33 @@ using namespace std;
 
 class Solution {
    private:
-    void dfs(string currentString, int openParenthesisCount,
-             int closeParenthesisCount, int n,
-             vector<string> &parenthesisPermutation) {
-        if (openParenthesisCount + closeParenthesisCount == n * 2) {
-            parenthesisPermutation.push_back(currentString);
+    void dfs(string currentString, int openParenthesesCount,
+             int closeParenthesesCount, int n,
+             vector<string> &parenthesesPermutation) {
+        if (openParenthesesCount + closeParenthesesCount == n * 2) {
+            parenthesesPermutation.push_back(currentString);
             return;
         }
 
-        if (openParenthesisCount < n) {
-            dfs(currentString + "(", openParenthesisCount + 1,
-                closeParenthesisCount, n, parenthesisPermutation);
+        if (openParenthesesCount < n) {
+            dfs(currentString + "(", openParenthesesCount + 1,
+                closeParenthesesCount, n, parenthesesPermutation);
         }
-        if (closeParenthesisCount < openParenthesisCount) {
-            dfs(currentString + ")", openParenthesisCount,
-                closeParenthesisCount + 1, n, parenthesisPermutation);
+        if (closeParenthesesCount < openParenthesesCount) {
+            dfs(currentString + ")", openParenthesesCount,
+                closeParenthesesCount + 1, n, parenthesesPermutation);
         }
     }
 
    public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> parenthesisPermutation;
-        int openParenthesisCount = 0;
-        int totalParenthesisCount = 0;
+    vector<string> generateParentheses(int n) {
+        vector<string> parenthesesPermutation;
+        int openParenthesesCount = 0;
+        int totalParenthesesCount = 0;
 
-        dfs("", 0, 0, n, parenthesisPermutation);
+        dfs("", 0, 0, n, parenthesesPermutation);
 
-        return parenthesisPermutation;
+        return parenthesesPermutation;
     }
 };
 
@@ -37,8 +37,8 @@ int main() {
     int n;
 
     cin >> n;
-    // Solution().generateParenthesis(n);
-    for(auto i:Solution().generateParenthesis(n)){
+    // Solution().generateParentheses(n);
+    for(auto i:Solution().generateParentheses(n)){
         cout<<i<<'\n';
     }
 }
