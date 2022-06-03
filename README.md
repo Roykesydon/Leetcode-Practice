@@ -1,5 +1,9 @@
 # Leetcode-Pratice
 
+1. [dp](#dp)
+2. [dfs](#dfs)
+3. [stack](#stack)
+
 ## dp
 
 ### Hard
