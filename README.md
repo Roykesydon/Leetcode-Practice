@@ -17,7 +17,17 @@
     - pretty simple
     - compue unique path to right bottom
 
+- 72.Edit Distance
+    - Hard
+    - text-edit-distance
+    - classic
+
 ## dfs
 - 980.Unique Paths III
     - Hard
     - find unique path in grid world
+
+## stack
+- 85.Maximal Rectangle
+    - Hard
+    - Classic
