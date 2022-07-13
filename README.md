@@ -1,23 +1,54 @@
 # Leetcode-Pratice
 
+1. [dp](#dp)
+2. [dfs](#dfs)
+3. [stack](#stack)
+
+## binary search
+
+### Medium
+- 1201.Ugly Number III
+    - gcd, lcm
+
 ## dp
 
+### Hard
+- 72.Edit Distance
+    - text-edit-distance
+    - classic
+
+- 87.Scramble-String.cpp
+    - O($n^4$)
+
+
+### Medium
 - 22.Generate Parentheses
-    - medium 
     - generate all legal parentheses permutation
     - dfs
 
 - 45.Jump Game II
-    - medium
     - Least step from left to right
     - O(n)
     
 - 63.Unique Paths II
-    - medium
     - pretty simple
     - compue unique path to right bottom
-
 ## dfs
+
+### Hard
 - 980.Unique Paths III
-    - Hard
     - find unique path in grid world
+
+## stack
+
+### Hard
+- 85.Maximal Rectangle
+    - Classic
+
+## other
+
+### Hard
+- 149.Max Points on a Line
+    - gcd
+    - slope
+    - O($n^2*log(n)$)
