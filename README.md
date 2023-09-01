@@ -1,9 +1,13 @@
 # Leetcode-Pratice
 
-1. [dp](#dp)
-2. [graph](#graph)
+1. [DP](#dp)
+2. [Graph](#graph)
+3. [Data Structure](#data-structure)
+3. [Binary Search](#binary-search)
 3. [STL](#STL)
-4. [other](#other)
+4. [Other](#other)
+5. [Two Pointers](#two-pointers)
+6. [Monotonic Stack/Queue](#monotonic-stackqueue)
 
 ## Binary Search
 
@@ -36,6 +40,13 @@
   - monotonic stack
   - maximal rectangle
 
+- 174. Dungeon Game
+  - min initial health
+
+- 312. Burst Balloons
+  - 區間 DP
+
+
 ### Medium
 
 - 22. Generate Parentheses
@@ -59,6 +70,9 @@
   - 0/1 Knapsack
   - Unbounded Knapsack
 
+- 2483. Minimum Penalty for a Shop
+    - prefix sum
+
 ## Graph
 
 ### Hard
@@ -69,6 +83,15 @@
 - 1203. Sort Items by Groups Respecting Dependencies
   - bfs
   - topological sort
+- 51. N-Queens
+  - dfs
+  - backtracking
+- 778. Swim in Rising Water
+  - dijkstra
+- 332. Reconstruct Itinerary
+  - Euler Path
+  - Greedy
+
 
 ### Medium
 
@@ -81,11 +104,23 @@
 ### Medium
 
 - 547. Number of Provinces
-
   - dsu
 
 - 1268. Search Suggestions System
   - trie
+
+- 721. Accounts Merge
+  - dsu
+
+
+### Hard
+- 295. Find Median from Data Stream
+    - heap
+    - medium
+
+## Monotonic Stack/Queue
+- 239. Sliding Window Maximum
+    - monotonic queue
 
 ## STL
 
@@ -94,6 +129,11 @@
 - 85. Maximal Rectangle
   - Classic
   - stack
+
+### Medium
+- 729. My Calendar I
+  - map
+  - upper_bound
 
 ## Two Pointers
 
@@ -111,6 +151,12 @@
   - slope
   - $O(n^2*log(n))$
 
+- 2366. Minimum Replacements to Sort the Array
+    - greedy
+
+- 1326. Minimum Number of Taps to Open to Water a Garden
+    - greedy
+
 ### Medium
 
 - 148. Sort List
@@ -122,3 +168,7 @@
 - 240. Search a 2D Matrix II
   - 2D Ascending Matrix search target
   - O(n+m)
+
+- 1423. Maximum Points You Can Obtain from Cards
+  - Prefix Sum
+

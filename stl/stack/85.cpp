@@ -10,7 +10,7 @@ class Solution {
         continuousOneAbove.resize(matrix.size());
         for (int i = 0; i < matrix.size(); i++)
             continuousOneAbove[i].resize(matrix[0].size(), 0);
-
+            
         for (int i = 0; i < continuousOneAbove.size(); i++)
             for (int j = 0; j < continuousOneAbove[0].size(); j++)
                 if (matrix[i][j] == '1')

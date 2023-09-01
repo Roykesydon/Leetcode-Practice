@@ -10,6 +10,7 @@ class Solution {
        public:
         Node* next[26];
         vector<string> suggests;
+
         Node() {
             for (int i = 0; i < 26; i++) next[i] = nullptr;
         }
