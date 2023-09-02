@@ -46,6 +46,10 @@
 - 312. Burst Balloons
   - 區間 DP
 
+- 639. Decode Ways II
+  - memorize
+  - count combination
+
 
 ### Medium
 
@@ -72,6 +76,19 @@
 
 - 2483. Minimum Penalty for a Shop
     - prefix sum
+
+- 718. Maximum Length of Repeated Subarray
+    - longest common substring
+
+- 91. Decode Ways
+    - memorization
+
+- 2707. Extra Characters in a String
+
+- 300. Longest Increasing Subsequence
+    - LIS
+    - $O(nlog(n))$
+
 
 ## Graph
 
