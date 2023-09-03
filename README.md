@@ -13,11 +13,11 @@
 
 ### Medium
 
-- 1201\. Ugly Number III
-  - gcd, lcm
-
 - 33\. Search in Rotated Sorted Array
   - rotated sorted array
+
+- 1201\. Ugly Number III
+  - gcd, lcm
 
 ## DP
 
@@ -27,22 +27,22 @@
   - text-edit-distance
   - classic
 
-- 87\. Scramble String
-  - $O(n^4)$
-
-- 403\. Frog Jump
-  - $O(n^2*log(n))$
-  - unordered_map
-
 - 85\. Maximal Rectangle
   - monotonic stack
   - maximal rectangle
+
+- 87\. Scramble String
+  - $O(n^4)$
 
 - 174\. Dungeon Game
   - min initial health
 
 - 312\. Burst Balloons
   - 區間 DP
+
+- 403\. Frog Jump
+  - $O(n^2*log(n))$
+  - unordered_map
 
 - 639\. Decode Ways II
   - memorize
@@ -59,38 +59,57 @@
   - Least step from left to right
   - $O(n)$
 
+- 62\. Unique Paths
+
 - 63\. Unique Paths II
   - pretty simple
   - compue unique path to right bottom
 
-- 1277\. Count Square Submatrices with All Ones
-  - get total square number in matrix
-
-- 518\. Coin Change II
-  - 0/1 Knapsack
-  - Unbounded Knapsack
-
-- 2483\. Minimum Penalty for a Shop
-    - prefix sum
-
-- 718\. Maximum Length of Repeated Subarray
-    - longest common substring
-
 - 91\. Decode Ways
     - memorization
-
-- 2707\. Extra Characters in a String
 
 - 300\. Longest Increasing Subsequence
     - LIS
     - $O(nlog(n))$
 
+- 518\. Coin Change II
+  - 0/1 Knapsack
+  - Unbounded Knapsack
+
+- 647\. Palindromic Substrings
+  - palindrome
+  - 用 for loop 順序滾掉一維
+
+- 718\. Maximum Length of Repeated Subarray
+    - longest common substring
+
 - 740\. Delete and Earn
+
+- 1277\. Count Square Submatrices with All Ones
+  - get total square number in matrix
+
+- 2483\. Minimum Penalty for a Shop
+    - prefix sum
+
+- 2707\. Extra Characters in a String
 
 
 ## Graph
 
 ### Hard
+
+
+
+- 51\. N-Queens
+  - dfs
+  - backtracking
+
+- 332\. Reconstruct Itinerary
+  - Euler Path
+  - Greedy
+
+- 778\. Swim in Rising Water
+  - dijkstra
 
 - 980\. Unique Paths III
   - find unique path in grid world
@@ -99,17 +118,6 @@
 - 1203\. Sort Items by Groups Respecting Dependencies
   - bfs
   - topological sort
-
-- 51\. N-Queens
-  - dfs
-  - backtracking
-
-- 778\. Swim in Rising Water
-  - dijkstra
-
-- 332\. Reconstruct Itinerary
-  - Euler Path
-  - Greedy
 
 
 ### Medium
@@ -125,12 +133,11 @@
 - 547\. Number of Provinces
   - dsu
 
-- 1268\. Search Suggestions System
-  - trie
-
 - 721\. Accounts Merge
   - dsu
 
+- 1268\. Search Suggestions System
+  - trie
 
 ### Hard
 - 295\. Find Median from Data Stream
@@ -156,10 +163,21 @@
 
 ## Two Pointers
 
+### Hard
+- 76\. Minimum Window Substring
+  - 同向
+
 ### Medium
 
+- 167\. Two Sum II - Input Array Is Sorted
+  - 相向
+
 - 395\. Longest Substring with At Least K Repeating Characters
-  - same direction
+  - 同向
+
+- 424\. Longest Repeating Character Replacement
+  - 同向
+
 
 ## Other
 
@@ -170,10 +188,10 @@
   - slope
   - $O(n^2*log(n))$
 
-- 2366\. Minimum Replacements to Sort the Array
+- 1326\. Minimum Number of Taps to Open to Water a Garden
     - greedy
 
-- 1326\. Minimum Number of Taps to Open to Water a Garden
+- 2366\. Minimum Replacements to Sort the Array
     - greedy
 
 ### Medium
