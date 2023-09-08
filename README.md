@@ -16,8 +16,15 @@
 - 33\. Search in Rotated Sorted Array
   - rotated sorted array
 
+- 34\. Find First and Last Position of Element in Sorted Array
+
 - 1201\. Ugly Number III
   - gcd, lcm
+
+### Hard
+- 1095\. Find in Mountain Array
+  - binary search
+  - mountain array
 
 ## DP
 
@@ -63,7 +70,7 @@
 
 - 63\. Unique Paths II
   - pretty simple
-  - compue unique path to right bottom
+  - compute unique path to right bottom
 
 - 91\. Decode Ways
     - memorization
@@ -84,6 +91,9 @@
     - longest common substring
 
 - 740\. Delete and Earn
+
+- 1218\. Longest Arithmetic Subsequence of Given Difference
+  - hash
 
 - 1277\. Count Square Submatrices with All Ones
   - get total square number in matrix
@@ -119,6 +129,10 @@
   - bfs
   - topological sort
 
+- 2462\. Design Graph With Shortest Path Calculator
+  - floyd warshall
+  - dynamic add edge
+
 
 ### Medium
 
@@ -126,15 +140,27 @@
   - topological sort
   - bfs
 
+- 230\. Kth Smallest Element in a BST
+  - dfs
+
 ## Data Structure
 
 ### Medium
+
+- 92\. Reverse Linked List II
+  - linked list
 
 - 547\. Number of Provinces
   - dsu
 
 - 721\. Accounts Merge
   - dsu
+
+- 725\. Split Linked List in Parts
+  - linked list
+
+- 973\. K Closest Points to Origin
+  - priority queue
 
 - 1268\. Search Suggestions System
   - trie
@@ -145,8 +171,21 @@
     - medium
 
 ## Monotonic Stack/Queue
+
+
+### Hard
+
+- 42\. Trapping Rain Water
+  - monotonic stack
+
+- 84. Largest Rectangle in Histogram
+  - monotonic stack
+
 - 239\. Sliding Window Maximum
     - monotonic queue
+
+- 2398\. Maximum Number of Robots Within Budget
+  - deque
 
 ## STL
 
@@ -157,6 +196,12 @@
   - stack
 
 ### Medium
+- 215\. Kth Largest Element in an Array
+  - priority queue
+
+- 621\. Task Scheduler
+  - priority queue
+
 - 729\. My Calendar I
   - map
   - upper_bound
@@ -168,6 +213,15 @@
   - 同向
 
 ### Medium
+
+- 3\. Longest Substring Without Repeating Characters
+  - 同向
+
+- 11\. Container With Most Water
+  - 相向
+
+- 16\. 3Sum Closest
+  - 相向
 
 - 167\. Two Sum II - Input Array Is Sorted
   - 相向
@@ -196,6 +250,11 @@
 
 ### Medium
 
+- 54\. Spiral Matrix
+
+- 138\. Copy List with Random Pointer
+  - linked list
+
 - 148\. Sort List
   - merge sort
   - linked list
@@ -207,4 +266,7 @@
 
 - 1423\. Maximum Points You Can Obtain from Cards
   - Prefix Sum
+
+- 1545\. Find Kth Bit in Nth Binary String
+  - divide and conquer
 
