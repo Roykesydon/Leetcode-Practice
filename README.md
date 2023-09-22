@@ -81,6 +81,9 @@
     - LIS
     - $O(nlog(n))$
 
+- 334\. Increasing Triplet Subsequence
+  - LIS length
+
 - 377\. Combination Sum IV
   - 0/1 Knapsack
   - Unbounded Knapsack
@@ -308,6 +311,9 @@
   - merge sort
   - linked list
   - in-place
+
+- 151\. Reverse Words in a String
+  - stringstream
 
 - 240\. Search a 2D Matrix II
   - 2D Ascending Matrix search target
