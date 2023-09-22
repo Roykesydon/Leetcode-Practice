@@ -41,6 +41,8 @@
 - 87\. Scramble String
   - $O(n^4)$
 
+- 135\. Candy
+
 - 174\. Dungeon Game
   - min initial health
 
@@ -79,6 +81,10 @@
     - LIS
     - $O(nlog(n))$
 
+- 377\. Combination Sum IV
+  - 0/1 Knapsack
+  - Unbounded Knapsack
+
 - 518\. Coin Change II
   - 0/1 Knapsack
   - Unbounded Knapsack
@@ -94,6 +100,10 @@
 
 - 1218\. Longest Arithmetic Subsequence of Given Difference
   - hash
+
+- 1626\. Best Team With No Conflicts
+  - sorting
+
 
 - 1277\. Count Square Submatrices with All Ones
   - get total square number in matrix
@@ -135,12 +145,35 @@
 
 
 ### Medium
+- 98\. Validate Binary Search Tree
+  - dfs
+  - binary search tree
+
+- 113\. Path Sum II
+  - dfs
 
 - 207\. Course Schedule
   - topological sort
   - bfs
 
+- 210\. Course Schedule II
+  - topological sort
+  - dfs
+  - check cycle
+
 - 230\. Kth Smallest Element in a BST
+  - dfs
+
+- 236\. Lowest Common Ancestor of a Binary Tree
+  - dfs
+  - lowest common ancestor
+  - binary tree
+  - special case
+
+- 842\. Split Array into Fibonacci Sequence
+  - dfs
+
+- 1448\. Count Good Nodes in Binary Tree
   - dfs
 
 ## Data Structure
@@ -165,6 +198,9 @@
 - 1268\. Search Suggestions System
   - trie
 
+- 2497\. Maximum Star Sum of a Graph
+  - heap
+
 ### Hard
 - 295\. Find Median from Data Stream
     - heap
@@ -178,7 +214,7 @@
 - 42\. Trapping Rain Water
   - monotonic stack
 
-- 84. Largest Rectangle in Histogram
+- 84\. Largest Rectangle in Histogram
   - monotonic stack
 
 - 239\. Sliding Window Maximum
@@ -232,6 +268,19 @@
 - 424\. Longest Repeating Character Replacement
   - 同向
 
+- 904\. Fruit Into Baskets
+  - 同向
+
+- 948\. Bag of Tokens
+  - 相向
+
+- 2271\. Maximum White Tiles Covered by a Carpet
+  - 同向
+
+### Easy
+
+- 2485\. Find the Pivot Integer
+  - 相向
 
 ## Other
 
@@ -269,4 +318,10 @@
 
 - 1545\. Find Kth Bit in Nth Binary String
   - divide and conquer
+
+- 1647\. Minimum Deletions to Make Character Frequencies Unique
+  - greedy
+
+- 2414\. Length of the Longest Alphabetical Continuous Substring
+
 
