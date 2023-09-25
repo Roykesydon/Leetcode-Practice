@@ -315,6 +315,9 @@
 - 151\. Reverse Words in a String
   - stringstream
 
+- 189\. Rotate Array
+  - divide and conquer
+
 - 240\. Search a 2D Matrix II
   - 2D Ascending Matrix search target
   - O(n+m)
