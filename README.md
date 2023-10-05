@@ -41,6 +41,8 @@
 - 87\. Scramble String
   - $O(n^4)$
 
+- 123\. Best Time to Buy and Sell Stock III
+
 - 135\. Candy
 
 - 174\. Dungeon Game
@@ -304,6 +306,12 @@
 
 - 54\. Spiral Matrix
 
+- 55\. Jump Game
+  - greedy
+
+- 122\. Best Time to Buy and Sell Stock II
+  - greedy
+
 - 138\. Copy List with Random Pointer
   - linked list
 
@@ -316,7 +324,6 @@
   - stringstream
 
 - 189\. Rotate Array
-  - divide and conquer
 
 - 240\. Search a 2D Matrix II
   - 2D Ascending Matrix search target
