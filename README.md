@@ -11,12 +11,17 @@
 
 ## Binary Search
 
+### Easy
+- 2529\. Maximum Count of Positive Integer and Negative Integer
+
 ### Medium
 
 - 33\. Search in Rotated Sorted Array
   - rotated sorted array
 
 - 34\. Find First and Last Position of Element in Sorted Array
+
+- 852\. Peak Index in a Mountain Array
 
 - 1201\. Ugly Number III
   - gcd, lcm
@@ -59,6 +64,7 @@
   - memorize
   - count combination
 
+- 2262\. Total Appeal of A String
 
 ### Medium
 
@@ -77,11 +83,15 @@
   - compute unique path to right bottom
 
 - 91\. Decode Ways
-    - memorization
+  - memorization
 
 - 300\. Longest Increasing Subsequence
-    - LIS
-    - $O(nlog(n))$
+  - LIS
+  - $O(nlog(n))$
+
+- 322\. Coin Change
+  - 0/1 Knapsack
+  - Unbounded Knapsack
 
 - 334\. Increasing Triplet Subsequence
   - LIS length
@@ -99,7 +109,7 @@
   - 用 for loop 順序滾掉一維
 
 - 718\. Maximum Length of Repeated Subarray
-    - longest common substring
+  - longest common substring
 
 - 740\. Delete and Earn
 
@@ -114,7 +124,7 @@
   - get total square number in matrix
 
 - 2483\. Minimum Penalty for a Shop
-    - prefix sum
+  - prefix sum
 
 - 2707\. Extra Characters in a String
 
@@ -329,8 +339,12 @@
   - 2D Ascending Matrix search target
   - O(n+m)
 
+- 331\. Verify Preorder Serialization of a Binary Tree
+
 - 1423\. Maximum Points You Can Obtain from Cards
   - Prefix Sum
+
+- 1433\. Check If a String Can Break Another String
 
 - 1545\. Find Kth Bit in Nth Binary String
   - divide and conquer
@@ -338,6 +352,9 @@
 - 1647\. Minimum Deletions to Make Character Frequencies Unique
   - greedy
 
+- 1775\. Equal Sum Arrays With Minimum Number of Operations
+
 - 2414\. Length of the Longest Alphabetical Continuous Substring
 
+- 2513\. Minimize the Maximum of Two Arrays
 
