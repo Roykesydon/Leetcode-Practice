@@ -164,6 +164,10 @@
   - dfs
   - binary search tree
 
+- 103\. Binary Tree Zigzag Level Order Traversal
+  - bfs
+  - binary tree
+
 - 113\. Path Sum II
   - dfs
 
@@ -212,6 +216,9 @@
 
 - 1268\. Search Suggestions System
   - trie
+
+- 1996\. The Number of Weak Characters in the Game
+  - BIT
 
 - 2497\. Maximum Star Sum of a Graph
   - heap
@@ -340,6 +347,9 @@
   - O(n+m)
 
 - 331\. Verify Preorder Serialization of a Binary Tree
+
+- 452\. Minimum Number of Arrows to Burst Balloons
+  - greedy
 
 - 1423\. Maximum Points You Can Obtain from Cards
   - Prefix Sum
