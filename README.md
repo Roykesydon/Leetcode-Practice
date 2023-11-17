@@ -113,6 +113,9 @@
 
 - 740\. Delete and Earn
 
+- 790\. Domino and Tromino Tiling
+  - multiple state
+
 - 1218\. Longest Arithmetic Subsequence of Given Difference
   - hash
 
@@ -170,6 +173,8 @@
 
 - 113\. Path Sum II
   - dfs
+
+- 129\. Sum Root to Leaf Numbers
 
 - 207\. Course Schedule
   - topological sort
@@ -244,6 +249,10 @@
 
 - 2398\. Maximum Number of Robots Within Budget
   - deque
+
+### Medium
+- 456\. 132 Pattern
+  - monotonic stack
 
 ## STL
 
@@ -362,9 +371,16 @@
 - 1647\. Minimum Deletions to Make Character Frequencies Unique
   - greedy
 
+- 1702\. Maximum Binary String After Change
+  - greedy
+
 - 1775\. Equal Sum Arrays With Minimum Number of Operations
+
+- 1910\. Remove All Occurrences of a Substring
+  - string
 
 - 2414\. Length of the Longest Alphabetical Continuous Substring
 
 - 2513\. Minimize the Maximum of Two Arrays
 
+- 2895\. Minimum Processing Time

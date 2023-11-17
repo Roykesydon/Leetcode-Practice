@@ -1,10 +1,14 @@
 {
     "files.associations": {
         "new": "cpp",
+<<<<<<< HEAD
         "vector": "cpp",
         "iosfwd": "cpp",
         "iostream": "cpp",
         "__tree": "cpp",
         "set": "cpp"
+=======
+        "iosfwd": "cpp"
+>>>>>>> 435555e5f23dc7d2ee2f2fa2da34b5ff0756a933
     }
 }
